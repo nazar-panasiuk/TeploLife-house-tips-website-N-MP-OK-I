@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>TeploLife</title>
+        <meta
+            name="description"
+            content="Идеи и лайфхаки для уюта в доме: организация пространства, эффективная уборка, быстрый мелкий ремонт, свет и атмосфера в интерьере, умные решения для хранения вещей."
+        />
+        <meta
+            name="keywords"
+            content="лайфхаки для дома, организация пространства, советы по уборке, мелкий ремонт своими руками, освещение интерьера, комфорт в доме, хранение вещей, системы хранения, порядок в доме, уют и интерьер"
+        />
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+    </head>
+
+    <body class="index-page">
+        <header
+            id="header"
+            class="header d-flex align-items-center sticky-top"
+            contenteditable="false"
+            aria-label="Шапка сайта"
+        >
+            <div
+                class="container-fluid container-xl position-relative d-flex align-items-center"
+            >
+                <a
+                    href="index.html"
+                    class="logo d-flex align-items-center me-auto"
+                >
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1 class="sitename">TeploLife</h1>
+                </a>
+
+                <nav
+                    id="navmenu"
+                    class="navmenu"
+                    aria-label="Главная навигация"
+                >
+                    <ul>
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li><a href="about.html">О проекте</a></li>
+                        <li><a href="services.html">Лайфхаки и советы</a></li>
+                        <li class="active">
+                            <a href="testimonials.html">Отзывы</a>
+                        </li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                    <i
+                        class="mobile-nav-toggle d-xl-none bi bi-list"
+                        aria-hidden="true"
+                    ></i>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Page Title -->
+            <div class="page-title light-background">
+                <div class="container">
+                    <nav class="breadcrumbs">
+                        <ol>
+                            <li><a href="index.html">Главная</a></li>
+                            <li class="current">Отзывы</li>
+                        </ol>
+                    </nav>
+                    <h1>Отзывы</h1>
+                </div>
+            </div>
+            <!-- End Page Title -->
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="testimonials section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Отзывы о наших советах по дому и уюту</h2>
+                    <p>
+                        Здесь вы можете прочитать мнения наших читателей,
+                        которые применили советы по организации пространства,
+                        уборке, ремонту и созданию уюта в интерьере. Их
+                        впечатления — это реальный опыт, как простые решения
+                        помогают сделать дом комфортнее и красивее.
+                    </p>
+                </div>
+                <!-- End Section Title -->
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper init-swiper">
+                        <script type="application/json" class="swiper-config">
+                            {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                    "delay": 5000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                },
+                                "breakpoints": {
+                                    "320": {
+                                        "slidesPerView": 1,
+                                        "spaceBetween": 40
+                                    },
+                                    "1200": {
+                                        "slidesPerView": 3,
+                                        "spaceBetween": 10
+                                    }
+                                }
+                            }
+                        </script>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <img
+                                        src="assets/img/testimonials/testimonials-1.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Елена Морозова</h3>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i
+                                            class="bi bi-quote quote-icon-left"
+                                        ></i>
+                                        <span>
+                                            "Благодаря вашим советам я полностью
+                                            переорганизовала гардеробную комнату
+                                            — теперь всё под рукой и выглядит
+                                            аккуратно. Очень полезные и простые
+                                            рекомендации!"
+                                        </span>
+                                        <i
+                                            class="bi bi-quote quote-icon-right"
+                                        ></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <img
+                                        src="assets/img/testimonials/testimonials-2.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Антон Ковалёв</h3>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i
+                                            class="bi bi-quote quote-icon-left"
+                                        ></i>
+                                        <span>
+                                            "Очень понравились идеи по освещению
+                                            кухни — с новым светом она стала
+                                            гораздо уютнее. Ваши советы помогают
+                                            сделать дом по-настоящему живым."
+                                        </span>
+                                        <i
+                                            class="bi bi-quote quote-icon-right"
+                                        ></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <img
+                                        src="assets/img/testimonials/testimonials-3.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Мария Чернышова</h3>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i
+                                            class="bi bi-quote quote-icon-left"
+                                        ></i>
+                                        <span>
+                                            "Я воспользовалась вашими
+                                            рекомендациями по хранению вещей —
+                                            теперь даже мелочи нашли своё место.
+                                            Дом стал чище и приятнее!"
+                                        </span>
+                                        <i
+                                            class="bi bi-quote quote-icon-right"
+                                        ></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <img
+                                        src="assets/img/testimonials/testimonials-4.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Дмитрий Литвинов</h3>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i
+                                            class="bi bi-quote quote-icon-left"
+                                        ></i>
+                                        <span>
+                                            "Советы по мелкому ремонту помогли
+                                            мне обновить спальню без больших
+                                            затрат. Простые шаги — а результат
+                                            впечатляющий!"
+                                        </span>
+                                        <i
+                                            class="bi bi-quote quote-icon-right"
+                                        ></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <img
+                                        src="assets/img/testimonials/testimonials-5.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Ольга Романенко</h3>
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i
+                                            class="bi bi-quote quote-icon-left"
+                                        ></i>
+                                        <span>
+                                            "Благодаря вашим идеям я сделала
+                                            гостиную светлее и уютнее. Атмосфера
+                                            дома полностью изменилась — теперь
+                                            это моё любимое место!"
+                                        </span>
+                                        <i
+                                            class="bi bi-quote quote-icon-right"
+                                        ></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Testimonials Section -->
+        </main>
+
+        <footer id="footer" class="footer dark-background">
+            <div class="container">
+                <div class="row gy-3 mb-5">
+                    <div class="col-lg-6 col-md-6 d-flex">
+                        <div class="address">
+                            <h4>TeploLife</h4>
+                            <p>
+                                TeploLife — это сайт о доме и уюте, где собраны
+                                лучшие советы и идеи для комфортной жизни. Мы
+                                делимся лайфхаками по уборке, хранению вещей,
+                                освещению, мелкому ремонту и созданию уюта в
+                                каждом уголке вашего пространства. Наша цель —
+                                помочь вам сделать дом удобным, чистым и
+                                красивым без лишних затрат и сложностей.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 d-flex">
+                        <div>
+                            <h4>Быстрые ссылки</h4>
+                            <p>
+                                <a href="index.html">Главная</a>
+                            </p>
+                            <p>
+                                <a href="about.html">О нас</a>
+                            </p>
+                            <p>
+                                <a href="services.html">Наши советы</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 d-flex">
+                        <div>
+                            <p>
+                                <a href="contact.html">Контакты</a>
+                            </p>
+                            <p>
+                                <a href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </p>
+                            <p>
+                                <a href="privacy-policy.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </p>
+                            <p>
+                                <a href="cookie-policy.html"
+                                    >Политика использования файлов Cookie</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-3 pb-5">
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <i class="bi bi-geo-alt icon"></i>
+                        <div class="address">
+                            <h4>Адрес</h4>
+                            <p>
+                                улица Казыбека Нуржанова 36/1, Караганда 100000,
+                                Казахстан
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <i class="bi bi-telephone icon"></i>
+                        <div>
+                            <h4>Контактная информация</h4>
+                            <p>
+                                <strong>Телефон:</strong>
+                                <span>+77212513019</span><br />
+                                <strong>E-Mail:</strong>
+                                <span>teplo_life@gmail.com</span><br />
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <i class="bi bi-clock icon"></i>
+                        <div>
+                            <h4>Часы работы</h4>
+                            <p>
+                                <strong>Пн–Сб:</strong>
+                                <span>11:00 – 23:00</span><br />
+                                <strong>Воскресенье:</strong>
+                                <span>Выходной</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll Top -->
+        <a
+            href="#"
+            id="scroll-top"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование Cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie, чтобы улучшить качество
+                    работы и сделать использование наших материалов более
+                    удобным и персонализированным.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Preloader -->
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
