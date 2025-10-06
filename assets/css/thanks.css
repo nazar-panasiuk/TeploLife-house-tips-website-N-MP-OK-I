@@ -23,10 +23,10 @@ body {
     background-color: #f5f5f5;
 }
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 4em;
     letter-spacing: 3px;
-    color: #76528bff;
+    color: #F95700FF;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -34,11 +34,11 @@ h1 {
     margin: 0;
     font-size: 1.3em;
     color: #aaa;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 1px;
 }
 .go-home {
-    background: #76528bff;
+    background: #F95700FF;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: 600;
@@ -59,10 +59,10 @@ h1 {
 }
 .go-home:hover {
     background: transparent;
-    border-color: #76528bff;
+    border-color: #F95700FF;
 }
 a:hover .go-home {
-    color: #76528bff;
+    color: #F95700FF;
 }
 .go-home a {
     text-decoration: none;
@@ -79,7 +79,7 @@ a:hover .go-home {
     margin: 0;
     padding: 4px;
     color: #ffc107;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 1px;
 }
 .footer-like p a {

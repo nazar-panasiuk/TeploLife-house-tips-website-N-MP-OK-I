@@ -25,7 +25,7 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #76528bff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #F95700FF; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -33,11 +33,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
     --nav-color: #556270; /* The default color of the main navmenu links */
-    --nav-hover-color: #76528bff; /* Applied to main navmenu links when they are hovered over or active */
+    --nav-hover-color: #F95700FF; /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #556270; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #76528bff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #F95700FF; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -56,7 +56,7 @@
 }
 
 .accent-background {
-    --background-color: #76528bff;
+    --background-color: #F95700FF;
     --default-color: #ffffff;
     --heading-color: #ffffff;
     --surface-color: #a3cb5b;
@@ -2776,12 +2776,12 @@ section,
     display: none;
 }
 .cookie-wrapper header i {
-    color: #76528bff;
+    color: #F95700FF;
     font-size: 32px;
     text-align: center;
 }
 .cookie-wrapper header h2 {
-    color: #76528bff;
+    color: #F95700FF;
     font-weight: 500;
     text-align: center;
 }
@@ -2789,7 +2789,7 @@ section,
     text-align: center;
 }
 .data p a {
-    color: #76528bff;
+    color: #F95700FF;
     text-decoration: none;
     text-align: center !important;
 }
@@ -2801,10 +2801,10 @@ section,
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #76528bff;
+    border: 2px solid #F95700FF;
     color: #fff;
     padding: 8px 0;
-    background: #76528bff;
+    background: #F95700FF;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -2813,22 +2813,22 @@ section,
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #76528bff;
+    color: #F95700FF;
 }
 #declineBtn {
     background-color: #fff;
-    color: #76528bff;
+    color: #F95700FF;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #76528bff;
+    background-color: #F95700FF;
     color: #fff;
 }
 #result {
-    color: #76528bff;
+    color: #F95700FF;
     font-size: 14px;
 }
-  .impressum-container {
+.impressum-container {
     max-width: 900px;
     margin: 40px auto;
     padding: 25px;
@@ -2836,40 +2836,40 @@ section,
     border: 1px solid #ddd;
     font-family: Arial, sans-serif;
     color: #333;
-  }
-  .impressum-title {
+}
+.impressum-title {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-  }
-  .impressum-row {
+}
+.impressum-row {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-  }
-  .impressum-col {
+}
+.impressum-col {
     flex: 1;
     min-width: 250px;
-  }
-  .impressum-label {
+}
+.impressum-label {
     font-weight: 600;
     margin-bottom: 8px;
-  }
-  .impressum-text {
+}
+.impressum-text {
     line-height: 1.5;
     margin-bottom: 15px;
-  }
-  .impressum-link {
+}
+.impressum-link {
     color: #1a73e8;
     text-decoration: none;
-  }
-  .impressum-link:hover {
+}
+.impressum-link:hover {
     text-decoration: underline;
-  }
-  .impressum-footer {
+}
+.impressum-footer {
     margin-top: 25px;
     font-size: 14px;
     color: #555;
     text-align: center;
-  }
+}
